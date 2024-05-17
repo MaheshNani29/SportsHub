@@ -1,0 +1,15 @@
+
+
+.card {
+    border: 1px solid #000; /* Adjust color as needed */
+    border-radius: 5px; /* Adjust as needed */
+}
+
+.card-header h5 {
+    text-align: center;
+}
+
+.opt{
+    display: flex; 
+    justify-content: space-between;
+}

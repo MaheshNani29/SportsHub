@@ -1,0 +1,43 @@
+
+
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+  }
+   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+
+   
+  nav {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+ 
+  nav a {
+    color: #fff;
+    text-decoration:solid;
+    font-size: 20px;
+    margin-right: 70px;
+    font-weight: bold;
+  }
+ 
+  nav a:first-child {
+    margin-left: 400px;
+  }
+  nav a:last-child{
+    margin-right: 0;
+  }
+  
+  nav a:hover {
+    text-decoration: none; /* Remove underlines on hover */
+    color: violet /* Change text color to white */
+}

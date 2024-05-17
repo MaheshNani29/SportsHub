@@ -1,0 +1,37 @@
+
+
+
+<app-header></app-header>
+<div class="complete">
+<div *ngIf="sports" class="container sport-table">
+    <div class="headers">
+        <h2 class="table-title">SPORTS AVAILABLE</h2>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sport Id</th>
+                <th>Sport Name</th>
+                <th>Players Required</th>
+                <th>Cost Per Hour</th>
+               
+            </tr>
+        </thead>
+        <tbody class="text-center">
+                <tr *ngFor="let sport of sports">
+                    <td>{{sport.sportId}}</td>
+                    <td>{{sport.sportName}}</td>
+                    <td>{{sport.minimumPlayers}}</td>
+                    <td>{{sport.costPerHour}}</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <img src="./../../assets/images/image_processing20210907-14992-1yuww7i.gif" alt="Homepage">
+</div>
+</div>
+
+
+
+

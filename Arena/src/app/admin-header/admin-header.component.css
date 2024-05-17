@@ -1,0 +1,35 @@
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    font-size: 24px; 
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+  }
+
+  .styled-link {
+    font-family: 'Arial', sans-serif; /* Change as needed */
+    font-weight: bold;
+    font-size: 18px; /* Change as needed */
+}
+
+h3 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: blue;
+}
+
+button{
+  margin-right: 20px;
+}
+

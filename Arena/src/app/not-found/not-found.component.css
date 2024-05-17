@@ -1,0 +1,7 @@
+
+#myImage {
+    height: 50vh;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

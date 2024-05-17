@@ -1,0 +1,31 @@
+
+
+
+    .centered {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+
+    .title {
+        font-weight: bold; 
+        font-family: Arial, sans-serif; 
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 0.5 em; 
+        text-align: center; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    img{
+       display: flex ;
+       justify-content: center;
+       width: 100vw;
+       height: 120vh;
+    }

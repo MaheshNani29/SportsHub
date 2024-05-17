@@ -1,0 +1,40 @@
+
+  <app-header></app-header>
+<div class="container">
+    <h2>Slot Booking</h2>
+    <form (ngSubmit)="booking()" class="needs-validation" novalidate>
+      <div class="form-group">
+        <label>User Id:</label>
+        <p>{{uid}}</p>
+      </div>
+ 
+      <div class="form-group">
+        <label>Sport Id:</label>
+        <input type="number" [(ngModel)]="book.sportID" name="sportID" class="form-control" required>
+     </div>
+ 
+      <div class="form-group">
+        <label>Team Size:</label>
+        <input type="number" [(ngModel)]="book.teamSize" name="teamSize" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label>Date:</label>
+        <input type="date" [(ngModel)]="book.date" name="date" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label>Start Time:</label>
+        <input type="time" [(ngModel)]="book.startTime" name="startTime" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label>End Time:</label>
+        <input type="time" [(ngModel)]="book.endTime" name="endTime" class="form-control" required>
+      </div>
+ 
+      <button type="submit" class="btn btn-primary">Book Now</button>
+
+
+    </form>
+  </div>

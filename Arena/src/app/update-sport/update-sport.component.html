@@ -1,0 +1,32 @@
+
+
+<app-admin-header></app-admin-header>
+
+
+<div class="container">
+  <h2>Update Book</h2>
+  <form (ngSubmit)="updateSport()">
+    <div class="form-group">
+      <label>Sport Id:</label>
+      <input type="number"  [(ngModel)]="sports.sportId" name="sportID" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label>Sport Name:</label>
+      <input type="text" [(ngModel)]="sports.sportName" name="sportName" class="form-control" required>
+    </div>
+ 
+    <div class="form-group">
+      <label>Cost Per Hour:</label>
+      <input type="text" [(ngModel)]="sports.costPerHour" name="costPerHour" class="form-control" required>
+    </div>
+ 
+    <div class="form-group">
+      <label>Players Required:</label>
+      <input type="text" [(ngModel)]="sports.minimumPlayers" name="minimumPlayers" class="form-control" required>
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Update Sport</button>
+    <a routerLink="/admin" routerLinkActive="active"><button type="submit" class="btn btn-primary">HOME</button></a>
+
+  </form>
+</div>

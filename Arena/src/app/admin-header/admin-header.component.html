@@ -1,0 +1,17 @@
+
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid d-flex justify-content-between">
+        <span class="navbar-brand mb-0 h1">{{ title }}</span>
+        <h3><a routerLink="/adminBookingList" routerLinkActive="active" style="text-decoration: none;">Bookings</a></h3>
+        <div>
+            <button class="btn btn-light mr-2">
+                <a routerLink="/users" routerLinkActive="active" style="text-decoration: none;">USERS</a>
+            </button>
+            <button class="btn btn-light mr-2">
+                <a routerLink="/adminBooking" routerLinkActive="active" style="text-decoration: none;">BOOK HERE</a>
+            </button>
+            <button class="btn btn-danger" (click)="Logout()"> LOGOUT </button> 
+        </div>
+    </div>
+</nav>
